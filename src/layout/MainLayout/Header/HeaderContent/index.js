@@ -1,6 +1,6 @@
 // material-ui
 import { Box, IconButton, Link, useMediaQuery } from '@mui/material';
-import { GithubOutlined } from '@ant-design/icons';
+import { InstagramOutlined } from '@ant-design/icons';
 
 // project import
 import Search from './Search';
@@ -20,14 +20,14 @@ const HeaderContent = () => {
 
       <IconButton
         component={Link}
-        href="https://github.com/codedthemes/mantis-free-react-admin-template"
+        href="https://www.instagram.com/alunosdoalma/"
         target="_blank"
         disableRipple
         color="secondary"
-        title="Download Free Version"
+        title="Instagram Alunos do Alma"
         sx={{ color: 'text.primary', bgcolor: 'grey.100' }}
       >
-        <GithubOutlined />
+        <InstagramOutlined />
       </IconButton>
 
       <Notification />

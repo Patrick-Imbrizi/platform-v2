@@ -15,14 +15,14 @@ const NavCard = () => (
     <Stack alignItems="center" spacing={2.5}>
       <CardMedia component="img" image={avatar} sx={{ width: 112 }} />
       <Stack alignItems="center">
-        <Typography variant="h5">Mantis Pro</Typography>
+        <Typography variant="h5">Seja aluno do Alma!</Typography>
         <Typography variant="h6" color="secondary">
-          Checkout pro features
+          Por menos de R$2 por dia.
         </Typography>
       </Stack>
       <AnimateButton>
-        <Button component={Link} target="_blank" href="https://mantisdashboard.io" variant="contained" color="success" size="small">
-          Pro
+        <Button component={Link} target="_blank" href="https://pay.hotmart.com/M57791921E?sck=HOTMART_PRODUCT_PAGE&bid=1671304048453" variant="contained" color="success" size="small">
+          Assinar
         </Button>
       </AnimateButton>
     </Stack>

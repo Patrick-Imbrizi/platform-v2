@@ -115,7 +115,7 @@ const Notification = () => {
             >
               <ClickAwayListener onClickAway={handleClose}>
                 <MainCard
-                  title="Notification"
+                  title="Avisos importantes"
                   elevation={0}
                   border={false}
                   content={false}
@@ -260,7 +260,7 @@ const Notification = () => {
                       <ListItemText
                         primary={
                           <Typography variant="h6" color="primary">
-                            View All
+                            Ver todos
                           </Typography>
                         }
                       />

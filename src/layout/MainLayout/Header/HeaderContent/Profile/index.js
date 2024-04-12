@@ -98,7 +98,7 @@ const Profile = () => {
       >
         <Stack direction="row" spacing={2} alignItems="center" sx={{ p: 0.5 }}>
           <Avatar alt="profile user" src={avatar1} sx={{ width: 32, height: 32 }} />
-          <Typography variant="subtitle1">John Doe</Typography>
+          <Typography variant="subtitle1">Patricão</Typography>
         </Stack>
       </ButtonBase>
       <Popper
@@ -141,9 +141,9 @@ const Profile = () => {
                           <Stack direction="row" spacing={1.25} alignItems="center">
                             <Avatar alt="profile user" src={avatar1} sx={{ width: 32, height: 32 }} />
                             <Stack>
-                              <Typography variant="h6">John Doe</Typography>
+                              <Typography variant="h6">Patricão</Typography>
                               <Typography variant="body2" color="textSecondary">
-                                UI/UX Designer
+                                Dev bonitão
                               </Typography>
                             </Stack>
                           </Stack>
@@ -168,7 +168,7 @@ const Profile = () => {
                                 textTransform: 'capitalize'
                               }}
                               icon={<UserOutlined style={{ marginBottom: 0, marginRight: '10px' }} />}
-                              label="Profile"
+                              label="Perfil"
                               {...a11yProps(0)}
                             />
                             <Tab
@@ -180,7 +180,7 @@ const Profile = () => {
                                 textTransform: 'capitalize'
                               }}
                               icon={<SettingOutlined style={{ marginBottom: 0, marginRight: '10px' }} />}
-                              label="Setting"
+                              label="Configurações"
                               {...a11yProps(1)}
                             />
                           </Tabs>
