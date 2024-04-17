@@ -17,7 +17,7 @@ const consulting = {
             id: 'consulting',
             title: 'Consultoria',
             type: 'item',
-            url: '/dashboard/default',
+            url: '/consultoria',
             icon: icons.TeamOutlined,
             breadcrumbs: false
         }

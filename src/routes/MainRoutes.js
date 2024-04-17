@@ -3,6 +3,9 @@ import { lazy } from 'react';
 // project import
 import Loadable from 'components/Loadable';
 import MainLayout from 'layout/MainLayout';
+import Courses from 'pages/courses/index';
+import Consultoria from 'pages/consultancy/index';
+import Materials from 'pages/materials/index';
 
 // render - dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
@@ -54,6 +57,18 @@ const MainRoutes = {
     {
       path: 'icons/ant',
       element: <AntIcons />
+    },
+    {
+      path: 'cursos',
+      element: <Courses />
+    },
+    {
+      path: 'consultoria',
+      element: <Consultoria />
+    },
+    {
+      path: 'materiais',
+      element: <Materials />
     }
   ]
 };

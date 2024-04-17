@@ -19,7 +19,7 @@ const courses = {
             id: 'courses',
             title: 'Cursos',
             type: 'item',
-            url: '/dashboard/default',
+            url: '/cursos',
             icon: icons.CoffeeOutlined,
             breadcrumbs: false
         },
@@ -27,7 +27,7 @@ const courses = {
             id: 'materials',
             title: 'Materiais',
             type: 'item',
-            url: '/dashboard/default',
+            url: '/materiais',
             icon: icons.FilePdfOutlined,
             breadcrumbs: false
         },
